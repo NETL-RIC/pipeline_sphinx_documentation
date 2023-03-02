@@ -48,38 +48,34 @@ Once the Main window has rendered, hover over the main map area of the program a
 
 ## Point Selection
 
-To place either a start or end point for your pipeline, select "Start Point" or "End Point" respectively from the left sidebar under the heading "Select a Map Point". Once enabled based on your selection, you may place a point by 
+To place either a start or end point for your pipeline, select `Start Point` or `End Point` respectively from the left sidebar under the heading `Select a Map Point`. Once enabled based on your selection, you may place a point by 
 * clicking anywhere on the map, 
 * entering a precise latitude and longitude, 
-* or selecting popular locations from the dropdown menu "Optional Start Location". 
+* or selecting popular locations from the dropdown menu `Optional Start Location`. 
 
 These options may be mixed and matched between start point and end point (for example, you may create a start point by clicking on the map area, and your end point by using the dropdown menu). The start point will be denoted in the map area by a point-up cyan triangle, and the destination by a point-down red triangle.
 
 :::{tip}
-A point's apparent location on the map and Lat/Long information will not be updated until the "Save Locations" is selected. (When specifying a point via Lat/Long or Optional Location).
+A point's apparent location on the map and Lat/Long information will not be updated until the `Save Locations` is selected. (When specifying a point via Lat/Long or Optional Location).
 :::
 
 ## Save Locations
-After both points are placed accurately, click the "Save Locations" button. You may re-place points and re-click this button safely if you wish to edit your selections. This will not execute the path-generation sequence of the program. 
+After both points are placed accurately, click the `Save Locations` button. You may re-place points and re-click this button safely if you wish to edit your selections. This will not execute the path-generation sequence of the program. 
 
 ![Start and End Points](../_static/start_end_points.PNG)
 
-The above is the result of manually selecting a start point by clicking on the map area, choosing an end point from the Optional End Location dropdown, and selecting Save Locations
+The above is the result of manually selecting a start point by clicking on the map area, choosing an end point from the `Optional End Location` dropdown, and selecting `Save Locations`.
 
 ## Output Folder and Program Execution
-Then, click "Select Folder Location" to open a file explorer and select the folder you wish the program to output to. 
-
+Then, click "Select Folder Location" to open a file explorer and select the folder you wish the program to output to. Alternatively, enter a folder path in the "Enter an Optional Folder" field and select `Save Folder Path`.
 
 ![Output Folder Verification](../_static/output_folder.PNG)
 
-When your folder is selected successfully, the path will appear directly above the "Run" button. 
+When your folder is selected successfully, the path will appear directly above the `Run` button. 
 
-:::{tip}
-Currently, the "Enter an optional folder" text field is not functional.
-:::
 
 ## Run
-If you are satisfied with your points and output folder, click "Run" to execute the path-generation sequence of the program. 
+If you are satisfied with your points and output folder, click `Run` to execute the path-generation sequence of the program. 
 
 ***
 # Retrieve and Review Results
