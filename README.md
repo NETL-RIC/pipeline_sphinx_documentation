@@ -19,4 +19,7 @@ Add to or create markdown files following what is expected by [MyST](https://mys
 
 To build your changes, execute the makefile on unix via `make html`, or `make.bat html` on Windows. 
 
-The built html files in the `build/html` folder can be viewed with any web browser. The main page that leads to all others is index.html
+## Looking at the Output Documentation
+
+The built html files in the `_build/html` folder can be viewed with any web browser. The main page that leads to all others is index.html.
+I have modified the `_build` folder to be at the same directory level as `source`, instead of the default which is inside of `source`.
