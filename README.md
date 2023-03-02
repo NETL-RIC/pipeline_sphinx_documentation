@@ -10,7 +10,7 @@ Navigate to exported_venv, and execute the following in the anaconda terminal:
     
 Then activate the virtual environemnt via:
 
-  conda activate sphinxpipe
+    conda activate sphinxpipe
 
 ## Contributing and Building Content
 This project uses MyST parser to create new markdown content.
