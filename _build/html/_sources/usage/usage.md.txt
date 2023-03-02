@@ -19,9 +19,11 @@ This will create an environment named "co2pipe" using the yaml file. Activate th
        
         conda activate co2pipe
 
-*Note that Unix users may simply use Python itself, or other tools, to create virtual environments from yaml files.*
+:::{tip}
+Unix users may simply use Python itself, or other tools, to create virtual environments from yaml files.
+:::
 
-With the virtual environment active, navigate back to the root source directory and run the main driver script, "CO2pipeline.py" via:
+With the virtual environment active, navigate back to the root source directory. Then run the main driver script, "CO2pipeline.py" via:
 
         python CO2pipeline.py
 
@@ -54,7 +56,7 @@ To place either a start or end point for your pipeline, select "Start Point" or 
 These options may be mixed and matched between start point and end point (for example, you may create a start point by clicking on the map area, and your end point by using the dropdown menu). The start point will be denoted in the map area by a point-up cyan triangle, and the destination by a point-down red triangle.
 
 :::{tip}
-A point's apparent location on the map and Lat/Long information will not be updated until the "Save Locations" is selected. (When specifying a point via Lat/Long or Optional Location)
+A point's apparent location on the map and Lat/Long information will not be updated until the "Save Locations" is selected. (When specifying a point via Lat/Long or Optional Location).
 :::
 
 ## Save Locations
@@ -73,7 +75,7 @@ Then, click "Select Folder Location" to open a file explorer and select the fold
 When your folder is selected successfully, the path will appear directly above the "Run" button. 
 
 :::{tip}
-Currently, the "Enter an optional folder" text field is not functional
+Currently, the "Enter an optional folder" text field is not functional.
 :::
 
 ## Run
@@ -81,5 +83,4 @@ If you are satisfied with your points and output folder, click "Run" to execute 
 
 ***
 # Retrieve and Review Results
-When the program has completed running, eight different files will be exported to the directory specified earlier. This concludes the program's path creation functionality. New start and end points may be selected, or the user may safely exit the program with the conventional red "x" button in the upper right-hand corner.
-
+When the program has completed running, eight different files will be exported to the directory specified earlier. This concludes the program's path creation functionality. New start and end points may be selected, or you may safely exit the program by closing the window conventionally.
